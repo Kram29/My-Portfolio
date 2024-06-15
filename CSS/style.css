@@ -1,0 +1,124 @@
+/* style.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+   
+   
+}
+
+
+.background-color {
+    background-color: #f0f0f0; 
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px; 
+   
+}
+
+h1.display-3 {
+    font-family: oswald;
+    font-size: 3rem; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+    color: blue
+}
+
+h2.display-3 {
+    font-family: oswald;
+    font-size: 3rem; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+    color: blue
+}
+
+.container {
+    width: 80%; 
+    max-width: 800px; 
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+}
+
+p.lead {
+    font-size: 1.6rem; 
+    font-family: bold;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px; 
+}
+p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px; 
+}
+
+.custom-img {
+    max-width: 100%; 
+    height: auto; 
+    max-height: 500px; 
+    width: auto; 
+    display: block; 
+    margin: 10px auto; 
+    padding: 10px; 
+    border-radius: 8px; 
+}
+
+@media (min-width: 992px) {
+    .custom-img {
+        float: right;
+        margin-left: 20px; 
+        margin-right: 0; 
+    }
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: calc(50% - 20px); 
+    width: auto; 
+    height: auto; 
+    background-color: rgba(0, 0, 0, 0.3); 
+    border-radius: 50%; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    font-size: 1.5rem; 
+    color: white; 
+}
+
+.carousel-control-prev {
+    left: -40px; 
+}
+
+.carousel-control-next {
+    right: -40px; 
+}
+
+.col-md-6 {
+  
+    padding: 40px; 
+}
+
+.col-md-12 {
+  
+    padding: 70px; 
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+
+
