@@ -71,6 +71,7 @@
                             <img src="image/image3.jpg" class="d-block w-100 custom-img" alt="Portfolio Image 3">
                         </div>
                     </div>
+                    
                     <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
@@ -156,13 +157,75 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="text-center">
-                    <h2>Portfolio</h2>
-                   
+                    <h2 class="display-3">Portfolio</h2>
+                    <div id="portfolio-carousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carousel-slide">
+                                    <img src="image/dashboard.png" alt="Admin Dashboard" class="portfolio-image">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-slide">
+                                    <img src="image/facultyDashboard.png" alt="Faculty Dashboard" class="portfolio-image">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-slide">
+                                    <img src="image/studentDashboard.png" alt="Student Dashboard" class="portfolio-image">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-slide">
+                                    <img src="image/timeInOut.png" alt="Student Time in and Time out" class="portfolio-image">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#portfolio-carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#portfolio-carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="carousel-content mt-3">
+                        <h5>Name: Tanchuling College Student Monitoring System using RFID and with SMS Support</h5>
+                        <h5>Category: VB.NET Application Development</h5>
+                        <p>I developed this system for our capstone project with the goal of enabling parents to monitor their child's academic performance and school attendance via SMS notifications. This system aims to provide real-time updates and ensure parents stay informed about their child's educational journey effortlessly. In this system, the faculty can log in to see their class schedule and add grades for their students. Students can also log in to see their class schedule and their grades.</p>
+                    </div>
+                    <!-- New carousel for the new image -->
+                  <!--   <div id="new-image-carousel" class="carousel slide mt-5" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="image/newPicture.png" alt="New Picture 1" class="portfolio-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image/newPicture2.png" alt="New Picture 2" class="portfolio-image">
+                            </div> -->
+                            <!-- Add more carousel-items as needed -->
+                       <!--  </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#new-image-carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#new-image-carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="carousel-content mt-3">
+                        <h5>Name: Tanchuling College Student Monitoring System using RFID and with SMS Support</h5>
+                        <h5>Category: VB.NET Application Development</h5>
+                        <p>I developed this system for our capstone project with the goal of enabling parents to monitor their child's academic performance and school attendance via SMS notifications. This system aims to provide real-time updates and ensure parents stay informed about their child's educational journey effortlessly. In this system, the faculty can log in to see their class schedule and add grades for their students. Students can also log in to see their class schedule and their grades.</p>
+                    </div> -->
                 </div>
             </div>
         </div>
     </section>
-
+    
+        
     <!-- Contact Me Section -->
     <section id="contact" class="container mt-5">
         <div class="row">
@@ -174,7 +237,7 @@
 
                     <div class="row justify-content-center">
                         <div class="col-md-6">
-                            <form action="https://formsubmit.co/marklouie.manrique@gmail.com" method="POST">
+                            <form action="https://formsubmit.co/c8f33bc5cb8182ca01a946bf5b048535" method="POST">
                                 <div class="form-group">
                                     <input type="text" class="form-control input-custom" id="fullName" name="name" placeholder="Enter your full name" required>
                                 </div>
