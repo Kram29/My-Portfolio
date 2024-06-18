@@ -3,21 +3,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, sans-serif; 
-   
-   
-}
-
-
-.background-color {
-    background-color: #f0f0f0; 
-    min-height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px; 
-   
+    font-family: Arial, sans-serif;   
 }
 
 h1.display-3 {
@@ -35,7 +21,12 @@ h2.display-3 {
     margin-bottom: 20px; 
     color: blue
 }
-
+h2.display-5 {
+    font-size: 3rem; 
+    font-family: bold;
+    color: #555;
+    
+}
 .custom-margin-top {
     font-family: oswald;
     font-size: 3rem; 
@@ -75,6 +66,7 @@ p {
     color: #555;
     line-height: 1.6;
     margin-bottom: 20px; 
+    
 }
 
 .custom-img {
@@ -235,40 +227,39 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Full viewport height, but allows content to extend beyond if necessary */
-    background-color: white; /* Background color for the section */
-    padding: 20px; /* Add some padding to ensure content doesn't touch the edges */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
+    min-height: 100vh; 
+    background-color: white; 
+    padding: 20px; 
+    box-sizing: border-box;
 }
 
 .portfolio-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Full viewport height */
-    background-color: white; /* Background color for the section */
-    padding: 20px; /* Padding for the section */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
+    min-height: 100vh; 
+    background-color: white;
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
 .image-container {
-    position: relative; /* Ensure relative positioning */
-    flex: 1 1 100%; /* Take full width of its parent */
-    max-width: 100%; /* Ensure it doesn't exceed full width */
-    height: auto; /* Automatically adjust height */
-    overflow: hidden; /* Hide overflow if any */
-    background-color: #f0f0f0; /* Background color for the container */
+    position: relative;
+    flex: 1 1 100%; 
+    max-width: 100%;
+    height: auto; 
+    overflow: hidden; 
+    background-color: #f0f0f0; 
 }
 
 .portfolio-image {
-    width: 100%; /* Ensure the image fills its container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure block display */
+    width: 100%; 
+    height: auto; 
+    display: block; 
 }
 
 .bigger-text {
-    word-wrap: break-word; /* Ensures long words wrap and don't overflow */
-}
+    word-wrap: break-word; }
 
 .carousel-item {
     transition: transform 0.6s ease;
@@ -294,6 +285,15 @@ p {
 
 .carousel-item-prev, .active.carousel-item-left {
     transform: translateX(-100%);
+}
+
+.text-muted {
+    color: #6c757d; }
+
+.copyright {
+    font-size: 1.25rem;
+    vertical-align: middle;
+    margin-right: 0.2em;
 }
 
 
