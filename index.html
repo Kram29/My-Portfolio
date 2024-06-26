@@ -11,7 +11,6 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
-       
         body {
             position: relative;
         }
@@ -21,7 +20,7 @@
             width: 100%;
             z-index: 1000;
         }
-        </style>
+    </style>
     <title>MARK LOUIE MANRIQUE - PORTFOLIO</title>
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="50">
@@ -53,7 +52,6 @@
         </div>
     </nav>
     
-
     <!-- Home Section -->
     <section id="home" class="container mt-5">
         <div class="row">
@@ -83,8 +81,7 @@
                 </div>
                 <!-- Download Button -->
                 <div class="mt-3 text-center">
-                    <a href="resume/resume.pdf" class="btn btn-primary btn-lg me-2" download>Download Resume</a>
-                  
+                    <a href="resume/cv.pdf" class="btn btn-primary btn-lg me-2" download>Download CV</a>
                 </div>
             </div>
             <div class="col-md-6 d-flex align-items-center">
@@ -93,8 +90,6 @@
                     <h1 class="display-3">I'm Mark Louie Manrique</h1>
                     <p class="lead">Excited to bring my knowledge and creativity to the world of web development.</p>
                 </div>
-            </div>
-            
             </div>
         </div>
     </section>
@@ -152,90 +147,155 @@
         </div>
     </section>
     
-
-    <!-- Portfolio Section -->
     <section id="portfolio" class="container mt-5">
         <div class="row">
-            <div class="col-md-12">
-                <div class="text-center">
-                    <h2 class="display-3">Portfolio</h2>
-                    <div id="portfolio-carousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="carousel-slide">
-                                    <img src="image/dashboard.png" alt="Admin Dashboard" class="portfolio-image">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="carousel-slide">
-                                    <img src="image/facultyDashboard.png" alt="Faculty Dashboard" class="portfolio-image">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="carousel-slide">
-                                    <img src="image/studentDashboard.png" alt="Student Dashboard" class="portfolio-image">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="carousel-slide">
-                                    <img src="image/timeInOut.png" alt="Student Time in and Time out" class="portfolio-image">
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#portfolio-carousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#portfolio-carousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                    <div class="carousel-content mt-3">
-                        <h5>Name: Tanchuling College Student Monitoring System using RFID and with SMS Support  │ Category: VB.NET Application Development</h5>
-                        <p>I developed this system for our capstone project with the goal of enabling parents to monitor their child's academic performance and school attendance via SMS notifications. This system aims to provide real-time updates and ensure parents stay informed about their child's educational journey effortlessly. In this system, the faculty can log in to see their class schedule and add grades for their students. Students can also log in to see their class schedule and their grades.</p>
-                    </div>
-                    <!-- New carousel for the new image -->
-                    <div id="new-image-carousel" class="carousel slide mt-5" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="image/home.png" alt="Home Page" class="portfolio-image">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="image/about.png" alt="About Me Page" class="portfolio-image">
-                            </div> 
-                            <div class="carousel-item">
-                                <img src="image/skills.png" alt="Skills Page" class="portfolio-image">
-                            </div> 
-
+            <!-- First Project -->
+            <div class="col-md-6">
+                <div class="project-container project-background">
+                    <div class="text-center">
+                        <div id="portfolio-carousel" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="image/portfolio.png" alt="Portfolio Page" class="portfolio-image">
+                                    <div class="carousel-slide">
+                                        <img src="image/dashboard.png" alt="Admin Dashboard" class="portfolio-image img-fluid">
+                                    </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="image/contact.png" alt="Contact Me Page" class="portfolio-image">
-                                </div> 
-                           
+                                    <div class="carousel-slide">
+                                        <img src="image/facultyDashboard.png" alt="Faculty Dashboard" class="portfolio-image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-slide">
+                                        <img src="image/studentDashboard.png" alt="Student Dashboard" class="portfolio-image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-slide">
+                                        <img src="image/timeInOut.png" alt="Student Time in and Time out" class="portfolio-image img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#portfolio-carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#portfolio-carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#new-image-carousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#new-image-carousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                    <div class="carousel-content mt-3">
-                        <h5>Name: Online Web Portfolio  │ Category: Web Development</h5>
-                        <p>A github hosted web online portfolio</p>
+                        <div class="carousel-content">
+                            <h5 class="name mt-3">Name: Tanchuling College Student Monitoring System</h5>
+                            <h5>Category: VB.NET Application Development</h5>
+                            <p>Developed for real-time monitoring of student academic performance and attendance, facilitating parent notifications.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- Second Project -->
+            <div class="col-md-6">
+                <div class="project-container project-background">
+                    <div class="text-center">
+                        <div id="new-image-carousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="carousel-slide">
+                                        <img src="image/home.png" alt="Home Page" class="portfolio-image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-slide">
+                                        <img src="image/about.png" alt="About Me Page" class="portfolio-image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-slide">
+                                        <img src="image/skills.png" alt="Skills Page" class="portfolio-image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-slide">
+                                        <img src="image/portfolio.png" alt="Portfolio Page" class="portfolio-image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-slide">
+                                        <img src="image/contact.png" alt="Contact Me Page" class="portfolio-image img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#new-image-carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#new-image-carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="carousel-content">
+                            <h5 class="name mt-3">Name: Online Web Portfolio</h5>
+                            <h5>Category: Web Development</h5>
+                            <p>A GitHub-hosted web online portfolio showcasing various projects and skills.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- third -->
+            <!-- <div class="col-md-6">
+                <div class="project-container project-background">
+                    <div class="text-center">
+                        <div id="new-image-carousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="carousel-slide">
+                                        <img src="image/home.png" alt="Home Page" class="portfolio-image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-slide">
+                                        <img src="image/about.png" alt="About Me Page" class="portfolio-image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-slide">
+                                        <img src="image/skills.png" alt="Skills Page" class="portfolio-image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-slide">
+                                        <img src="image/portfolio.png" alt="Portfolio Page" class="portfolio-image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-slide">
+                                        <img src="image/contact.png" alt="Contact Me Page" class="portfolio-image img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#new-image-carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#new-image-carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="carousel-content">
+                            <h5 class="name mt-3">Name: Online Web Portfolio</h5>
+                            <h5>Category: Web Development</h5>
+                            <p>A GitHub-hosted web online portfolio showcasing various projects and skills.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </div>
     </section>
     
-        
+
+    
     <!-- Contact Me Section -->
     <section id="contact" class="container mt-5">
         <div class="row">
@@ -266,11 +326,9 @@
                             </form>
                         </div>
                     </div>                    
-                    </div>
                 </div>
             </div>
         </div>
-       
     </section>
 
     <div class="col-auto">
@@ -279,7 +337,17 @@
         </div>
     </div>
     
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                const navbarToggler = document.querySelector('.navbar-toggler');
+                const navbarCollapse = document.querySelector('#navbarNav');
+                if (navbarCollapse.classList.contains('show')) {
+                    navbarToggler.click();
+                }
+            });
+        });
+    </script>
 </body>
 </html>
