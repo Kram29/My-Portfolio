@@ -158,37 +158,16 @@ p {
     }
 }
 
-.project-background {
-    background-color: #f8f9fa; 
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
+
+.project-item {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%; 
 }
 
-.project-container {
-    min-height: 500px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.portfolio-image {
-    max-height: 300px;
-    object-fit: cover;
+.project-item img {
     width: 100%;
-}
-
-
-
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+    height: 250px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the entire area */
 }
 
 .navbar-nav {
@@ -298,6 +277,8 @@ p {
     vertical-align: middle;
     margin-right: 0.2em;
 }
+
+
 
 
 

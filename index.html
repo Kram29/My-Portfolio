@@ -13,6 +13,7 @@
     <style>
         body {
             position: relative;
+         
         }
         .navbar {
             position: fixed;
@@ -99,7 +100,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="text-center">
-                    <h2 class="display-3">About Me</h2>
+                    <h2 class="text-center font-weight-bold mb-4 display-3">About Me</h2>
                     <p class="lead bigger-text">Hello! I'm Mark Louie Manrique, a passionate web enthusiast eager to explore the world of web development. Currently, I am learning HTML, CSS, and JavaScript to create visually appealing and intuitive web interfaces. My journey in web development began with a deep curiosity about how websites are built and a desire to contribute meaningfully to the digital landscape. I believe in continuous learning and improvement, and I am excited about the possibilities that web development offers. Feel free to explore my portfolio and projects. If you'd like to connect or collaborate, don't hesitate to reach out!</p>
                     
                     <!-- Social Media Icons -->
@@ -147,152 +148,82 @@
         </div>
     </section>
     
-    <section id="portfolio" class="container mt-5">
-        <div class="row">
-            <!-- First Project -->
-            <div class="col-md-6">
-                <div class="project-container project-background">
-                    <div class="text-center">
-                        <div id="portfolio-carousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Projects -->
+    <section id="portfolio" class="fade-in-up mt-5">
+        <div class="container">
+            <h2 class="text-center font-weight-bold mt-5 display-3">Projects</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div id="project1-carousel" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <div class="carousel-slide">
-                                        <img src="image/dashboard.png" alt="Admin Dashboard" class="portfolio-image img-fluid">
-                                    </div>
+                                    <img src="image/dashboard.png" alt="Student Monitoring System" class="card-img-top img-fluid">
                                 </div>
                                 <div class="carousel-item">
-                                    <div class="carousel-slide">
-                                        <img src="image/facultyDashboard.png" alt="Faculty Dashboard" class="portfolio-image img-fluid">
-                                    </div>
+                                    <img src="image/facultyDashboard.png" alt="Faculty Dashboard" class="card-img-top img-fluid">
                                 </div>
                                 <div class="carousel-item">
-                                    <div class="carousel-slide">
-                                        <img src="image/studentDashboard.png" alt="Student Dashboard" class="portfolio-image img-fluid">
-                                    </div>
+                                    <img src="image/studentDashboard.png" alt="Student Dashboard" class="card-img-top img-fluid">
                                 </div>
                                 <div class="carousel-item">
-                                    <div class="carousel-slide">
-                                        <img src="image/timeInOut.png" alt="Student Time in and Time out" class="portfolio-image img-fluid">
-                                    </div>
+                                    <img src="image/timeInOut.png" alt="Time In/Out System" class="card-img-top img-fluid">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#portfolio-carousel" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#project1-carousel" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#portfolio-carousel" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#project1-carousel" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
-                        <div class="carousel-content">
-                            <h5 class="name mt-3">Name: Tanchuling College Student Monitoring System</h5>
-                            <h5>Category: VB.NET Application Development</h5>
-                            <p>Developed for real-time monitoring of student academic performance and attendance, facilitating parent notifications.</p>
+                        <div class="card-body">
+                            <h5 style="font-weight: 600;" class="card-title">Student Monitoring System using RFID and with SMS Support</h5>
+                            <p class="card-text">Developed for real-time monitoring of student academic performance and attendance, facilitating parent notifications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div id="project2-carousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/home.png" alt="Home Page" class="card-img-top img-fluid">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/about.png" alt="About Me Page" class="card-img-top img-fluid">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/skills.png" alt="Skills Page" class="card-img-top img-fluid">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/portfolio.png" alt="Portfolio Page" class="card-img-top img-fluid">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/contact.png" alt="Contact Me Page" class="card-img-top img-fluid">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#project2-carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#project2-carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h5 style="font-weight: 600;" class="card-title">Online Web Portfolio</h5>
+                            <p class="card-text">A GitHub-hosted web online portfolio.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Second Project -->
-            <div class="col-md-6">
-                <div class="project-container project-background">
-                    <div class="text-center">
-                        <div id="new-image-carousel" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="carousel-slide">
-                                        <img src="image/home.png" alt="Home Page" class="portfolio-image img-fluid">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="carousel-slide">
-                                        <img src="image/about.png" alt="About Me Page" class="portfolio-image img-fluid">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="carousel-slide">
-                                        <img src="image/skills.png" alt="Skills Page" class="portfolio-image img-fluid">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="carousel-slide">
-                                        <img src="image/portfolio.png" alt="Portfolio Page" class="portfolio-image img-fluid">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="carousel-slide">
-                                        <img src="image/contact.png" alt="Contact Me Page" class="portfolio-image img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#new-image-carousel" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#new-image-carousel" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                        <div class="carousel-content">
-                            <h5 class="name mt-3">Name: Online Web Portfolio</h5>
-                            <h5>Category: Web Development</h5>
-                            <p>A GitHub-hosted web online portfolio showcasing various projects and skills.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- third -->
-            <!-- <div class="col-md-6">
-                <div class="project-container project-background">
-                    <div class="text-center">
-                        <div id="new-image-carousel" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="carousel-slide">
-                                        <img src="image/home.png" alt="Home Page" class="portfolio-image img-fluid">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="carousel-slide">
-                                        <img src="image/about.png" alt="About Me Page" class="portfolio-image img-fluid">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="carousel-slide">
-                                        <img src="image/skills.png" alt="Skills Page" class="portfolio-image img-fluid">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="carousel-slide">
-                                        <img src="image/portfolio.png" alt="Portfolio Page" class="portfolio-image img-fluid">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="carousel-slide">
-                                        <img src="image/contact.png" alt="Contact Me Page" class="portfolio-image img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#new-image-carousel" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#new-image-carousel" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                        <div class="carousel-content">
-                            <h5 class="name mt-3">Name: Online Web Portfolio</h5>
-                            <h5>Category: Web Development</h5>
-                            <p>A GitHub-hosted web online portfolio showcasing various projects and skills.</p>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </section>
+    
     
 
     
@@ -301,8 +232,9 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="text-center">
+                    
                     <i class="fas fa-envelope fa-3x"></i>
-                    <h2 class = "display-3">Connect with me</h2>
+                    <h2 class = "text-center font-weight-bold mb-4 display-3">Connect with me</h2>
                     <p class = "lead bigger-text">Let's work together!</p>
 
                     <div class="row justify-content-center">
