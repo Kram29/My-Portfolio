@@ -166,8 +166,8 @@ p {
 
 .project-item img {
     width: 100%;
-    height: 250px; /* Set a fixed height */
-    object-fit: cover; /* Ensure the image covers the entire area */
+    height: 250px;
+    object-fit: cover; 
 }
 
 .navbar-nav {
