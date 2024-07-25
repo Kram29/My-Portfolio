@@ -169,4 +169,20 @@ html, body {
     #home .social-icons  {
       text-align: center;
     }
+
+    #contact h2.display-3{
+        font-family: 'Oswald', sans-serif; 
+        font-size: 2.5rem; 
+        font-weight: bold; 
+        margin-bottom: 20px; 
+        color: blue; 
+    }
+
+    #home h1.display-3 {
+        font-family: 'Oswald', sans-serif; 
+        font-size: 2rem; 
+        font-weight: bold; 
+        margin-bottom: 20px; 
+        color: blue; 
+    }
 }
